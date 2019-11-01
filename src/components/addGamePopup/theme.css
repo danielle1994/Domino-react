@@ -1,0 +1,70 @@
+h1 {
+  margin: 0;
+  padding: 0;
+  color: blueviolet;
+}
+
+.popup {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(0,0,0, 0.5);
+}
+.popup_inner {
+  position: absolute;
+  left: 25%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  margin: auto;
+  background: white;
+}
+
+.popup_inner button {
+  padding: 5px 15px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color:black;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin:5px;
+}
+form {
+padding: 5px 15px;
+font-size: 30px;
+cursor: pointer;
+text-align: center;
+text-decoration: none;
+outline: none;
+color:black;
+border: none;
+border-radius: 15px;
+box-shadow: 0 9px #999;
+margin:5px;
+}
+
+#newGameSubmit
+{
+  display: flex;
+  margin: auto;
+  margin-top: 100px;
+  border-style: outset;
+  font-size: 25px;
+  padding-left: 8px;
+  padding-right: 8px;
+  cursor: pointer;
+  border-style: solid;
+  background-color: #d0f3e8;
+  border-color: #d0f3e8;
+  
+
+}

@@ -1,0 +1,15 @@
+img {
+    height: 50px;
+}
+
+.deg90 {
+    transform: rotate(90deg);
+}
+
+.deg180 {
+    transform: rotate(180deg);
+}
+
+.deg270 {
+    transform: rotate(270deg);
+}

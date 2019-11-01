@@ -1,0 +1,55 @@
+#playerTiles {
+    display:flex;
+}
+
+.wrap{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.right{
+    padding: 83px 40px 0 0;
+}
+
+.center{
+    margin:0 auto;
+    display:inline;
+    padding-top: 40px;
+    width: 70%;
+}
+
+.left{
+    padding-left: 40px
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline;
+    margin: 20px;}
+
+
+.logo-image {
+    height: 180px;
+}
+
+ button {
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color:black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+   button:hover {
+      background-color: rgb(196, 102, 250)
+    }

@@ -1,0 +1,13 @@
+#playerTiles{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+#playerTiles div {
+    margin: 5px;
+}
+
+#playerTiles img {
+    cursor: pointer;
+}
